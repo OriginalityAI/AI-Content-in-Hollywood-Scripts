@@ -1,0 +1,4 @@
+data/dataset_with_aicontent_soap.csv filter=lfs diff=lfs merge=lfs -text
+data/full_dataset.csv filter=lfs diff=lfs merge=lfs -text
+data/dataset_with_aicontent_pilot.csv filter=lfs diff=lfs merge=lfs -text
+data/dataset_with_aicontent_snl.csv filter=lfs diff=lfs merge=lfs -text
