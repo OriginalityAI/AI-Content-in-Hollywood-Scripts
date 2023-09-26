@@ -2,6 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
+import scienceplots
 
 def get_data():
     """
@@ -11,19 +12,22 @@ def get_data():
     returns: the concatenated datasets
     """
     df_soap = pd.read_csv("../data/dataset_with_aicontent_soap.csv").drop(columns="Unnamed: 0")
-    df_pilot = pd.read_csv("../data/dataset_with_aicontent_pilot.csv")
+#     df_pilot = pd.read_csv("../data/dataset_with_aicontent_pilot.csv")
     df_snl = pd.read_csv("../data/dataset_with_aicontent_snl.csv")
     
     df_soap.date = pd.to_datetime(df_soap.date)
     df_soap['year'] = df_soap.date.dt.year
-    df_pilot.year = df_pilot.year+1
+#     df_pilot.year = df_pilot.year+1
     
-    df_pilot['genre']='Primetime Pilot'
+#     df_pilot['genre']='Primetime Pilot'
     df_soap['genre']='Daytime Soap'
     df_snl['genre']='LateNight Comedy'
     
     dfs = []
-    for df in [df_pilot, df_soap, df_snl]:
+    for df in [
+#         df_pilot, 
+        df_soap, 
+        df_snl]:
         d = df.drop_duplicates()
         d = d[d.year>2019]
         dfs.append(d[['year', 'genre', 'aiContent']].dropna().copy()

@@ -1,2 +1,2 @@
-# AIContent-in-Hollywood-scripts
-# AI-Content-in-Hollywood-Scripts
+# AIContent-in-scripts
+# AI-Content-in-scripts
