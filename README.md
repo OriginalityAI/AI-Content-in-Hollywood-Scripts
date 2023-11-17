@@ -23,8 +23,11 @@ plays.
 ## Credit
 
 The transcripts were collected from the following fan-hosted websites:
+
 • https://tvmeg.com/ - for Daytime Soap Operas
+
 • https://snltranscripts.jt.org - for SNL Sketches
+
 • https://sites.google.com/site/tvwriting/us-drama/pilot-scripts - for US Drama/Comedy Pi-
 lots
 
