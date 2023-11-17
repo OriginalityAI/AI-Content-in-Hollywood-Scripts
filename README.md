@@ -16,7 +16,9 @@ plays.
 - Low probability of AI Content in scripts.
 - Episodes written after the strike started (by non-union workers) showed no variation from this trend.
 
-![plot](images/output.png)
+![plot](images/ai_output.png)
+
+![plot](images/original_output.png)
 
 ## Credit
 
